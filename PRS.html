@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PMN</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Your custom dark theme CSS styles here */
+    body {
+      background-color: #000000;
+      color: #fff;
+    }
+    #heads
+    {
+        color:#fff;
+    }
+    /* Customize other elements with dark theme styles */
+  </style>
+</head>
+<body>
+   <center> <h1 id="heads">Product recommendation Module</h1> <a href="index.html" style="color: grey;font-weight: bold;font-size: 25px;text-decoration: underline;">Home</a></center>
+  <div class="container mt-5">
+    <!-- Introduction Section -->
+    <section id="introduction" class="mb-5">
+      <h2  id="heads">Introduction</h2>
+      <p>
+        This module is designed and developed in order to generate products and services recommendations
+        on banking user data. The module predicts the most probable product or service purchase by the user 
+      . This information can be leveraged and used to push products or services to the user for better personlized 
+      UI experience. <br><br>
+
+
+      </p>
+    </section>
+   
+
+    <!-- Architecture Section -->
+    <section id="architecture" class="mb-5">
+      <h2  id="heads">Architecture</h2><br>
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <img src="assets/images/flowchart_PRS.JPG" alt="Architecture" class="img-fluid">
+
+          <!-- Your architecture image here -->
+          <br>
+<br>
+          <p>
+            This module is built on ML algorithms to find the behaviour similarity of the customer with other customer data and 
+            provide a prediction of recommendations that user might be willing to purchase in the future.<br>
+            We have used collaborative filtering algorithm in order to formulate the similarities between the customers.
+            The recommendation results can be structured to promote for future.
+
+          </p>
+        </div>
+       
+      </div>
+      <br>
+      <br>
+      
+    </section>
+
+    <!-- Softwares Used Section -->
+    <section id="softwares" class="mb-5">
+      <h2  id="heads">Softwares Used</h2>
+      <p>
+       1. Python <br>
+       2. Streamlit <br>
+       3. REST API <br>
+    
+      </p>
+    </section>
+
+   
+<br>
+<br>
+  
+    <!-- Live Link Section -->
+    <section id="live-link" class="mb-5">
+      <h2  id="heads">Live Link</h2>
+      <p>
+        <a href="https://prsdemo.streamlit.app/" target="_blank">product recommendation system live link</a>
+      </p>
+      <h3>Instruction of use</h3>
+      <P>1. Once the link is opened, Select the user you want to check recommendations for.<br>2. click on generate recommendation button.<br>
+      3. Find the User's existing products and recommended products in tabular format.</P>
+    </section>
+  </div>
+
+  <!-- Bootstrap JS and jQuery (optional for certain Bootstrap functionalities) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
